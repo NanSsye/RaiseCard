@@ -6,7 +6,7 @@ from WechatAPI import WechatAPIClient
 from utils.plugin_base import PluginBase
 from utils.decorators import on_text_message, on_at_message
 
-class RaiseCardPlugin(PluginBase):
+class RaiseCard(PluginBase):
     description = "举牌插件 - 生成举牌图片"
     author = "XXXBot"
     version = "1.1.0"
